@@ -15,6 +15,6 @@ print("=" * 30)
 # Semantic error: without the f, the braces are printed as plain text
 print(f"User: {username}")
 
-# Runtime error: I cannot add a number to text with +, so I used str(minutes)
+# Runtime error: I cannot add a number to text with +, so I used an f-string instead
 print(f"Session: {minutes} min {seconds} s")
 print("=" * 30)
